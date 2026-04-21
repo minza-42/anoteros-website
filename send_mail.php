@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
   $message = trim($_POST["message"]);
 
-  $to = "info@anoteros.se"; // Ändra till din e-post
+  $to = "magnus@anoteros.se"; // Ändrad till ny e-post
   $subject = "Ny kontakt från webbplatsen: $name";
   $content = "Namn: $name\nE-post: $email\n\nMeddelande:\n$message";
 
