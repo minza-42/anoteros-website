@@ -28,6 +28,7 @@ $services = [
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="img/Anoteros_orange_gåspenna.png">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -35,11 +36,7 @@ $services = [
 
   <nav>
     <a href="#" class="nav-logo">
-      <svg viewBox="0 0 52 68" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M44 3C44 3 8 16 6 47C6 47 16 34 26 32C16 44 13 60 17 66C17 66 19 52 26 45C33 38 48 26 44 3Z" fill="#f0930a" />
-        <path d="M17 66 Q20 56 26 45" stroke="#f0930a" stroke-width="2.5" stroke-linecap="round" />
-      </svg>
-      <span class="nav-logo-text">Anoteros</span>
+      <img src="img/Anoteros_logo_rgb.png" alt="Anoteros" class="nav-logo-img">
     </a>
     <ul class="nav-links">
       <li><a href="#om">Om oss</a></li>
@@ -49,14 +46,11 @@ $services = [
   </nav>
 
   <section class="hero">
-    <svg class="hero-bg-feather" viewBox="0 0 300 400" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-      <path d="M260 10C260 10 20 80 10 260C10 260 80 180 140 170C80 240 60 340 90 370C90 370 100 280 140 240C180 200 280 130 260 10Z" fill="#f0930a" />
-      <path d="M90 370 Q110 300 140 240" stroke="#f0930a" stroke-width="8" stroke-linecap="round" />
-    </svg>
+    <img src="img/Anoteros_orange_gåspenna.png" alt="" class="hero-bg-feather" aria-hidden="true">
     <div class="hero-content">
       <div class="hero-eyebrow fade-up">Stockholm, Sverige</div>
-      <h1 class="fade-up td08">Din partner<br>i <span class="accent">digitala</span><br>projekt.</h1>
-      <p class="hero-desc fade-up td16">Anoteros AB levererar kompetens och erfarenhet inom IT-konsulting, dataanalys och projektledning.</p>
+      <h1 class="fade-up td08">Den erfarna<br><span class="accent">analoga</span><br>partnern.</h1>
+      <p class="hero-desc fade-up td16">Jag heter Magnus O Karlsson — grundare av Anoteros AB. Jag jobbar nära och tillsammans med dig inom IT-konsulting, dataanalys och projektledning.</p>
       <div class="hero-actions fade-up td24">
         <a href="#kontakt" class="btn-primary">Kontakta oss</a>
         <a href="#tjanster" class="btn-ghost">Se tjänster</a>
@@ -77,13 +71,15 @@ $services = [
     <div class="about-aside fade-up">
       <div class="about-aside-inner">
         <div class="about-aside-label">Vår filosofi</div>
-        <blockquote>"Analog visdom i en digital värld — erfarenhet är vår skarpaste penna."</blockquote>
+        <blockquote>"Jag vill vara den erfarna analoga partnern i era digitala projekt."</blockquote>
+        <div class="about-aside-name">Magnus O Karlsson<br><span>Grundare, Anoteros AB</span></div>
       </div>
     </div>
     <div class="about-main fade-up td10">
-      <h2>Kompetens som <em>levererar</em> resultat.</h2>
-      <p>Anoteros AB är ett konsultbolag med djup förankring i skärningspunkten mellan verksamhet och teknik. Vi hjälper organisationer att navigera komplexa digitala utmaningar med klarhet och struktur.</p>
-      <p>Vår styrka ligger i förmågan att förstå både det strategiska och det operativa — att se helheten och simultaneously hantera detaljerna som avgör om ett projekt lyckas.</p>
+      <h2>Nära samarbete som <em>levererar</em> resultat.</h2>
+      <p>Jag jobbar med konsulttjänster inom IT, konkurrent- och omvärldsanalyser samt dataanalyser av olika slag — business intelligence och analytics.</p>
+      <p>Det finns en viktig roll att fylla i projekten mellan verksamheten och IT, speciellt om leveransen sker med en extern leverantör. Någon ska kunna förklara vad verksamheten vill ha gjort, hur det kan ske optimalt i den tillgängliga systemmiljön och vilka ömsesidiga kompromisser som är smarta och nödvändiga.</p>
+      <p>Verksamhetens personal är den viktigaste källan till information. Jag vill skapa en miljö där de kan komma till tals och vara en daglig samarbetspartner — oavsett om det gäller kravspecifikation, lösningsdesign, testexekvering, utbildning eller driftsättning.</p>
     </div>
   </section>
 
@@ -109,7 +105,7 @@ $services = [
     <div class="contact-wrap">
       <div class="contact-left fade-up">
         <h2>Låt oss <em>prata.</em></h2>
-        <p>Har du ett projekt på gång eller söker du en erfaren partner? Fyll i formuläret så återkommer vi inom kort.</p>
+        <p>Har du ett projekt på gång eller söker du en erfaren partner som kan vara bryggan mellan din verksamhet och IT? Fyll i formuläret så återkommer jag inom kort.</p>
         <div class="contact-details">
           <div class="cd-item">
             <div class="cd-label">E-post</div>
@@ -137,11 +133,7 @@ $services = [
 
   <footer>
     <div class="footer-logo">
-      <svg viewBox="0 0 52 68" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M44 3C44 3 8 16 6 47C6 47 16 34 26 32C16 44 13 60 17 66C17 66 19 52 26 45C33 38 48 26 44 3Z" fill="#f0930a" />
-        <path d="M17 66 Q20 56 26 45" stroke="#f0930a" stroke-width="2.5" stroke-linecap="round" />
-      </svg>
-      <span class="footer-logo-text">Anoteros AB</span>
+      <img src="img/Anoteros_logo_gåspenna_vit.png" alt="Anoteros AB" class="footer-logo-img">
     </div>
     <p>© <?php echo date("Y"); ?> — Alla rättigheter förbehållna</p>
   </footer>
