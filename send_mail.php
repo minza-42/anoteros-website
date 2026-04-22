@@ -4,15 +4,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
   $message = trim($_POST["message"]);
 
-  $to = "magnus@anoteros.se"; // Ändrad till ny e-post
-  $subject = "Ny kontakt från webbplatsen: $name";
-  $content = "Namn: $name\nE-post: $email\n\nMeddelande:\n$message";
+  $to = "magnus@anoteros.se";
+  $subject = "New contact from the website: $name";
+  $content = "Name: $name\nEmail: $email\n\nMessage:\n$message";
 
   $headers = "From: $email";
 
   if (mail($to, $subject, $content, $headers)) {
-    echo "Tack för ditt meddelande! Vi återkommer snart.";
+    echo "Thank you for your message! We'll get back to you shortly.";
   } else {
-    echo "Något gick fel, försök igen senare.";
+    echo "Something went wrong, please try again later.";
   }
 }

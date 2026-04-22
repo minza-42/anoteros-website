@@ -1,9 +1,9 @@
 /*
 Theme Name: Anoteros Website
-Theme URI: https://dinsida.se/
-Author: Ditt Namn
-Author URI: https://dinsida.se/
-Description: Tema för Anoteros AB
+Theme URI: https://yoursite.com/
+Author: Your Name
+Author URI: https://yoursite.com/
+Description: Theme for Anoteros AB
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -353,7 +353,7 @@ h1 .accent {
 }
 
 /* ABOUT */
-#om {
+#about {
   padding: 8rem 4rem;
   display: grid;
   grid-template-columns: 1fr 1.6fr;
@@ -423,7 +423,7 @@ h1 .accent {
 }
 
 /* SERVICES */
-#tjanster {
+#services {
   background: var(--light);
   padding: 8rem 4rem;
 }
@@ -523,7 +523,7 @@ h1 .accent {
 }
 
 /* CONTACT */
-#kontakt {
+#contact {
   padding: 8rem 4rem;
   background: var(--white);
 }
@@ -740,13 +740,13 @@ footer p {
     right: -20px;
   }
 
-  #om {
+  #about {
     grid-template-columns: 1fr;
     gap: 3rem;
     padding: 5rem 1.5rem;
   }
 
-  #tjanster {
+  #services {
     padding: 5rem 1.5rem;
   }
 
@@ -760,7 +760,7 @@ footer p {
     grid-template-columns: 1fr;
   }
 
-  #kontakt {
+  #contact {
     padding: 5rem 1.5rem;
   }
 
