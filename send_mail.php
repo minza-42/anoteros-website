@@ -11,8 +11,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $headers = "From: $email";
 
   if (mail($to, $subject, $content, $headers)) {
-    echo "Thank you for your message! We'll get back to you shortly.";
+    header("Location: thankyou.php");
+    exit;
   } else {
-    echo "Something went wrong, please try again later.";
+    header("Location: index.php?error=1#contact");
+    exit;
   }
 }
