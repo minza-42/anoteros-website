@@ -10,7 +10,7 @@ $services = [
   ],
   [
     "title" => "Data Analysis & BI",
-    "desc" => "Environmental analysis and Business Intelligence that transforms data into actionable insights."
+    "desc" => "Competitive intelligence and analytics that transforms data into actionable insights."
   ],
   [
     "title" => "Project Management",
@@ -50,7 +50,8 @@ $services = [
     <div class="hero-content">
       <div class="hero-eyebrow fade-up">Stockholm, Sweden</div>
       <h1 class="fade-up td08">The experienced<br><span class="accent">analogue</span><br>partner.</h1>
-      <p class="hero-desc fade-up td16">My name is Magnus O Karlsson — founder of Anoteros AB. I work closely alongside you in IT consulting, data analysis and project management.</p>
+      <p class="hero-tagline fade-up td12"><?php echo $tagline; ?></p>
+      <p class="hero-desc fade-up td16">My name is Magnus O Karlsson — founder, owner, and currently the only employee of Anoteros AB. I deliver consulting services in IT, competitive intelligence and analytics.</p>
       <div class="hero-actions fade-up td24">
         <a href="#contact" class="btn-primary">Contact us</a>
         <a href="#services" class="btn-ghost">View services</a>
@@ -60,7 +61,7 @@ $services = [
 
   <div class="strip" aria-hidden="true">
     <div class="strip-inner">
-      <?php $items = ["IT Consulting", "Data Analysis", "Business Intelligence", "Project Management", "Digital Strategy", "Stockholm"];
+      <?php $items = ["IT Consulting", "Competitive Intelligence", "Business Intelligence", "Project Management", "Digital Strategy", "Stockholm"];
       for ($r = 0; $r < 4; $r++) foreach ($items as $it): ?>
         <span class="strip-item"><?php echo $it; ?></span><span class="strip-dot">·</span>
       <?php endforeach; ?>
@@ -71,15 +72,14 @@ $services = [
     <div class="about-aside fade-up">
       <div class="about-aside-inner">
         <div class="about-aside-label">Our philosophy</div>
-        <blockquote>"I want to be the experienced analogue partner in your digital projects."</blockquote>
+        <blockquote>"With Anoteros AB I want to be the experienced, analogue resource in your digital projects."</blockquote>
         <div class="about-aside-name">Magnus O Karlsson<br><span>Founder, Anoteros AB</span></div>
       </div>
     </div>
     <div class="about-main fade-up td10">
       <h2>Close collaboration that <em>delivers</em> results.</h2>
-      <p>I work with consulting services in IT, competitor and environmental analyses, as well as various types of data analysis — business intelligence and analytics.</p>
-      <p>There is an important role to fill in projects between the business and IT, especially when delivery is handled by an external supplier. Someone needs to be able to explain what the business wants done, how it can be achieved optimally within the available system environment, and which mutual compromises are smart and necessary.</p>
-      <p>The organisation's staff are the most important source of information. I want to create an environment where they can be heard and be a daily collaborative partner — whether it concerns requirements specification, solution design, test execution, training or deployment.</p>
+      <p>There is an important role to fill in bridging the gap between the business and IT — especially when delivery is handled by an external supplier. Someone needs to explain what the business wants done, how to achieve it optimally within the available system landscape, and which compromises are smart and necessary.</p>
+      <p>The organisation's staff are the most valuable source of information. I want to create an environment where they become an active, visible partner in the daily work — getting the job done together with the IT vendor, whether it concerns requirements specification, solution design, test execution, training or deployment.</p>
     </div>
   </section>
 
