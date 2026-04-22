@@ -111,6 +111,15 @@ $services = [
             <div class="cd-label">Email</div>
             <div class="cd-val"><?php echo $email; ?></div>
           </div>
+          <div class="cd-item">
+            <div class="cd-label">LinkedIn</div>
+            <div class="cd-val">
+              <a href="https://www.linkedin.com/in/magnus-o-karlsson/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <img src="img/linkedin-svgrepo-com.svg" alt="LinkedIn" width="20" height="20" style="vertical-align:middle;margin-right:6px;">
+                Magnus O Karlsson
+              </a>
+            </div>
+          </div>
         </div>
       </div>
       <form action="send_mail.php" method="POST" class="contact-form fade-up td12">
