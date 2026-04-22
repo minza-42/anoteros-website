@@ -1,7 +1,7 @@
 <?php
 $site_title = "Anoteros AB";
 $tagline = "Expertise and Experience for Your Projects";
-$email = "magnus@anoteros.se";
+$email = "info@anoteros.se";
 
 $services = [
   [
