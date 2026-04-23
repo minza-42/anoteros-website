@@ -43,6 +43,11 @@ $services = [
       <li><a href="#services">Services</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
+    <a href="https://anoteros.se/" class="lang-switch" title="Svenska" aria-label="Swedish version">
+      <span class="lang-switch-label">SV</span>
+      <br>
+      <img src="img/sweden-svgrepo-com.svg" alt="" class="lang-flag">
+    </a>
   </nav>
 
   <section class="hero">
